@@ -11,3 +11,8 @@ jobs:
           pwd
           ls -l
           hostnamectl
+     - name: step2
+       run : |
+          wc -l /etc/passwd
+          echo $USER          
+                
