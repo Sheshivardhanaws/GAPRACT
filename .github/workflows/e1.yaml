@@ -15,7 +15,7 @@ jobs:
        run : |
           wc -l /etc/passwd
           echo $USER 
-          sudo useradd -m -s bin/bash sheshivardhan
+          sudo useradd -m -s /bin/bash sheshivardhan
           wc -l /etc/passwd
           sudo su sheshivardhan
           id 
