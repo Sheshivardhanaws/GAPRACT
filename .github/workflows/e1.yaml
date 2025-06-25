@@ -14,5 +14,8 @@ jobs:
      - name: step2
        run : |
           wc -l /etc/passwd
-          echo $USER          
+          echo $USER 
+          sudo su
+          id
+          
                 
