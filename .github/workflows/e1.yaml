@@ -16,5 +16,7 @@ jobs:
           wc -l /etc/passwd
           sudo apt update && sudo apt install python3
           python3 --version          
-          
+  job2:
+    runs-on: ubuntu-latest
+    - run: echo testinmg job2    
                 
