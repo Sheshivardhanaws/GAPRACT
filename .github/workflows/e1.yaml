@@ -14,12 +14,7 @@ jobs:
      - name: step2
        run : |
           wc -l /etc/passwd
-          echo $USER 
-          sudo useradd -m -s /bin/bash sheshivardhan
-          wc -l /etc/passwd
-          sudo su sheshivardhan
-          id 
-          head -n 4 /etc/passwd
-          
+          sudo apt update && sudo apt install python3
+          python3 --version          
           
                 
